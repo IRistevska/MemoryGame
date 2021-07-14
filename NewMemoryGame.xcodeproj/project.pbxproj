@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		A1631AF92270773900A4F0AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1631AF82270773900A4F0AF /* AppDelegate.swift */; };
-		A1631AFB2270773900A4F0AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1631AFA2270773900A4F0AF /* ViewController.swift */; };
 		A1631AFE2270773900A4F0AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1631AFC2270773900A4F0AF /* Main.storyboard */; };
-		A1631B002270773B00A4F0AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1631AFF2270773B00A4F0AF /* Assets.xcassets */; };
 		A1631B032270773B00A4F0AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1631B012270773B00A4F0AF /* LaunchScreen.storyboard */; };
+		A1631B0B2270775500A4F0AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1631B0A2270775500A4F0AF /* Assets.xcassets */; };
+		A1631B0D2270776300A4F0AF /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1631B0C2270776300A4F0AF /* Card.swift */; };
+		A1631B0F2270776800A4F0AF /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1631B0E2270776800A4F0AF /* CardCollectionViewCell.swift */; };
+		A1631B112270777100A4F0AF /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1631B102270777100A4F0AF /* CardModel.swift */; };
+		A1631B132270777600A4F0AF /* EasyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1631B122270777600A4F0AF /* EasyViewController.swift */; };
+		A1631B152270777B00A4F0AF /* GradientColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1631B142270777B00A4F0AF /* GradientColor.swift */; };
+		A1631B172270779F00A4F0AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1631B162270779F00A4F0AF /* ViewController.swift */; };
+		A1631B1922707A2800A4F0AF /* EasyMediumHardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1631B1822707A2800A4F0AF /* EasyMediumHardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A1631AF52270773900A4F0AF /* NewMemoryGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewMemoryGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1631AF82270773900A4F0AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A1631AFA2270773900A4F0AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A1631AFD2270773900A4F0AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A1631AFF2270773B00A4F0AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1631B022270773B00A4F0AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1631B042270773B00A4F0AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1631B0A2270775500A4F0AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1631B0C2270776300A4F0AF /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		A1631B0E2270776800A4F0AF /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		A1631B102270777100A4F0AF /* CardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		A1631B122270777600A4F0AF /* EasyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyViewController.swift; sourceTree = "<group>"; };
+		A1631B142270777B00A4F0AF /* GradientColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientColor.swift; sourceTree = "<group>"; };
+		A1631B162270779F00A4F0AF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1631B1822707A2800A4F0AF /* EasyMediumHardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyMediumHardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +66,16 @@
 		A1631AF72270773900A4F0AF /* NewMemoryGame */ = {
 			isa = PBXGroup;
 			children = (
+				A1631B0A2270775500A4F0AF /* Assets.xcassets */,
+				A1631B0E2270776800A4F0AF /* CardCollectionViewCell.swift */,
+				A1631B122270777600A4F0AF /* EasyViewController.swift */,
+				A1631B142270777B00A4F0AF /* GradientColor.swift */,
+				A1631B0C2270776300A4F0AF /* Card.swift */,
+				A1631B102270777100A4F0AF /* CardModel.swift */,
+				A1631B162270779F00A4F0AF /* ViewController.swift */,
+				A1631B1822707A2800A4F0AF /* EasyMediumHardViewController.swift */,
 				A1631AF82270773900A4F0AF /* AppDelegate.swift */,
-				A1631AFA2270773900A4F0AF /* ViewController.swift */,
 				A1631AFC2270773900A4F0AF /* Main.storyboard */,
-				A1631AFF2270773B00A4F0AF /* Assets.xcassets */,
 				A1631B012270773B00A4F0AF /* LaunchScreen.storyboard */,
 				A1631B042270773B00A4F0AF /* Info.plist */,
 			);
@@ -123,7 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1631B032270773B00A4F0AF /* LaunchScreen.storyboard in Resources */,
-				A1631B002270773B00A4F0AF /* Assets.xcassets in Resources */,
+				A1631B0B2270775500A4F0AF /* Assets.xcassets in Resources */,
 				A1631AFE2270773900A4F0AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1631AFB2270773900A4F0AF /* ViewController.swift in Sources */,
+				A1631B0F2270776800A4F0AF /* CardCollectionViewCell.swift in Sources */,
+				A1631B152270777B00A4F0AF /* GradientColor.swift in Sources */,
+				A1631B132270777600A4F0AF /* EasyViewController.swift in Sources */,
+				A1631B0D2270776300A4F0AF /* Card.swift in Sources */,
+				A1631B172270779F00A4F0AF /* ViewController.swift in Sources */,
 				A1631AF92270773900A4F0AF /* AppDelegate.swift in Sources */,
+				A1631B1922707A2800A4F0AF /* EasyMediumHardViewController.swift in Sources */,
+				A1631B112270777100A4F0AF /* CardModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
